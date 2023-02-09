@@ -1,0 +1,246 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(22, 64, 104);
+    color: aliceblue;
+    font-family:Arial, Helvetica, sans-serif; 
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+
+}
+
+header {
+    position: sticky;
+    top: 0;
+    background-color: rgb(24, 25, 26);
+}
+
+nav ul li {
+    padding: 10px 10px;
+}
+
+a {
+    font-weight:bold;
+    color:white;
+    text-decoration: none;
+}
+
+.ancla__nav{
+    position: relative;
+    margin: 0px 15px;
+}
+
+ul li a:after{
+    position: absolute;
+    bottom: 7px;
+    left: 0px;
+    width: 100%;
+    height: 4px;
+    background-color: rgb(201, 106, 17);
+    content: "";
+    opacity: 0;
+    transition: opacity 0.3s ease 0s, transform 0.3s ease 0s;
+    transform: translateY(20px);        
+}
+ul li a:hover:after{
+    opacity:1;
+    transform: translateY(15px)
+}
+i {
+    margin-right: 7px;
+}
+
+section{
+    height: 100vh;
+}
+
+.logo {
+    width: 30px;
+    margin-top: 5px;
+}
+
+section#hero {
+    background-image: url(../assets/dev.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.parrafo__contenedor {
+    width: 600px;
+}
+
+p#demo{
+    font-size: 2rem;
+    text-align: center;
+}
+
+h1 {
+    font-size: 3rem;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+h2 {
+    font-size: 3rem;
+    text-align: center;
+    margin: 20px;
+}
+
+h3 {
+    margin: 15px;
+    text-align: center;
+    font-size: 2rem;
+}
+
+p {
+    margin: 10px;
+    font-size: 20;
+}
+
+
+.perfil-conetendor{
+    border: 3px solid rgb(255, 255, 255);
+    border-radius: 100px;
+    margin-top: 20px;
+}
+
+.perfil-conetendor img{
+    border-radius: 100px;
+}
+
+section#proyectos {
+    background-image: url(../assets/textura.jpg);
+    background-repeat: repeat;
+    background-size: contain;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding-top: 35px;
+}
+
+.proyecto-lista{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.proyecto-detalle{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid rgb(201, 106, 17);
+    border-radius: 15px;
+    width: 1000px;
+    margin: 20px;
+}
+
+img{
+    width: 100%;
+    border-radius: 15px;
+}
+
+
+section#contacto{
+    background-image: url(../assets/fondo5.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 50%;
+    border: 2px solid rgb(201, 106, 17);
+}
+
+form div {
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    margin: 5px;
+}
+
+label {
+    font-size: 1.3rem;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 100%;
+    height: 30px;
+    border: 2px solid rgb(201, 106, 17);
+    border-radius: 15px;
+}
+input[type=text]:focus {
+    background-color: rgb(231, 124, 23);
+}
+
+textarea {
+    width: 100%;
+    height: 200px;
+    padding: 12px 20px;
+    border: 2px solid rgb(201, 106, 17);
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    resize: none;
+}
+
+
+button {
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 20px;
+    font-weight:bold;
+    padding: 0.5em 1.2em;
+    background: rgb(231, 124, 23);
+    border: 2px solid;
+    border-color: rgb(201, 106, 17);
+    border-radius: 30px;
+    position: static;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+button:hover {
+    color: rgba(255, 255, 255, 1);
+    box-shadow: 0 4px 16px rgb(22, 64, 104);
+    transition: all 0.2s ease;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(24, 25, 26);
+
+}
+
+
+.icofooter {
+    font-size: 3rem;
+}

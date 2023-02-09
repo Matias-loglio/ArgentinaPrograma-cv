@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://kit.fontawesome.com/7faa73bccc.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="../CV/assets/android-chrome-192x192.png">
+    <title>Curriculum Vitae</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <a href="#hero"><img class="logo" src="../CV/assets/logo.jpg" alt="logo"></a>
+                <li><a class="ancla__nav" href="#hero"><i class="fas fa-home"></i>Home</a></li>
+                <li><a class="ancla__nav" href="#proyectos"><i class="fas fa-tasks"></i>Proyectos</a></li>
+                <li><a class="ancla__nav" href="#contacto"><i class="fas fa-address-book"></i>Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Perfil -->
+        
+        <section id="hero">
+            <div class="perfil-conetendor" >
+                <img src="assets/foto perfil.jpg" alt="Foto de perfil" />
+            </div>
+            
+            <h1>Edgar Gonzales</h1>
+            <h3>Developers</h3>
+            <div class="parrafo__contenedor">
+                <p id="demo"></p>
+            </div>
+            <div>
+                <button type="button" id="botonA"<i class="fas fa-envelope"></i></button>
+                <button type="button" id="botonB" <i class="fab fa-whatsapp"></i></button>
+                <button type="button" id="botonC" <i class="fas fa-map"></i></button>
+            </div>
+        </section>
+        
+        <!-- lista de proyectos -->
+        <section id="proyectos">
+            <h2 class="titulo-proyectos">Proyectos Realizados</h2>
+            <div class="proyecto-lista" >
+
+                <div class="proyecto-detalle">
+                    <img src="assets/proyecto 1.jpg" alt="Proyecto 1">
+                    <h3>Proyecto realizado para SalvajeCity</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque odit incidunt 
+                        repellendus recusandae sequi esse corporis beatae, eius rem commodi 
+                        quae at omnis explicabo animi fuga adipisci voluptas praesentium tenetur!</p>
+                    <button type="button" class="btn__mas"><a href="#">Ver Mas</a></button>
+                </div>
+
+                <div class="proyecto-detalle">
+                    <img src="assets/proyecto 2.jpg" alt="Proyecto 2">
+                    <h3>Proyecto realizado para SalvajeCity</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque odit incidunt 
+                        repellendus recusandae sequi esse corporis beatae, eius rem commodi 
+                        quae at omnis explicabo animi fuga adipisci voluptas praesentium tenetur!</p>
+                        <button type="button" class="btn__mas"><a href="#">Ver Mas</a></button>
+                </div>
+
+                <div class="proyecto-detalle">
+                    <img src="assets/proyecto 3.PNG" alt="Proyecto 3">
+                    <h3>Proyecto realizado para SalvajeCity</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque odit incidunt 
+                        repellendus recusandae sequi esse corporis beatae, eius rem commodi 
+                        quae at omnis explicabo animi fuga adipisci voluptas praesentium tenetur!</p>
+                        <button type="button" class="btn__mas"><a href="#">Ver Mas</a></button>
+                </div>
+            </div>
+        </section>
+
+        <section id="contacto">
+            <h2>Contacta conmigo</h2>
+            <form action="" method="">
+                    <div>
+                        <label for="name">Nombre</label>
+                        <input type="text" id="name" name="name" placeholder="  Escribe tu Nombre" required>
+                    </div>
+                    <div>
+                        <label>Asunto</label>
+                        <input type="text" placeholder="  Asunto" required>
+                    </div>
+                    <div>
+                        <label for="msg">Mensaje</label>
+                        <textarea id="msg" name="mensaje" placeholder="Dejame un Mensaje" required></textarea>
+                    </div>
+                <button type="button">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <nav>
+            <ul>
+                <li><a href="#"><i class="fab fa-facebook-square  icofooter"></i></a></li>
+                <li><a href="#"><i class="fab fa-instagram icofooter"></i></a></li>
+                <li><a href="#"><i class="fab fa-github icofooter"></i></a></li>
+            </ul>
+        </nav>
+        <p>© 2023 Todos los derechos reservados.</p>
+    </footer>
+
+<script src="../CV/js/functions.js"></script>
+</body>
+</html>
