@@ -2,4 +2,4 @@
 Curriculum vitae
 
 
-<img src="CV/assets/readme.png"
+<img src="assets/readme.png"
