@@ -55,6 +55,7 @@ ul li a:hover:after{
     opacity:1;
     transform: translateY(15px)
 }
+
 i {
     margin-right: 7px;
 }
@@ -78,7 +79,7 @@ section#hero {
     align-items: center;
 }
 
-.parrafo__contenedor {
+.parrafo {
     width: 600px;
 }
 
@@ -111,13 +112,13 @@ p {
 }
 
 
-.perfil-conetendor{
+.perfil-contendor{
     border: 3px solid rgb(255, 255, 255);
     border-radius: 100px;
     margin-top: 20px;
 }
 
-.perfil-conetendor img{
+.perfil-contendor img{
     border-radius: 100px;
 }
 
@@ -243,4 +244,15 @@ footer {
 
 .icofooter {
     font-size: 3rem;
+}
+
+
+@media (max-width: 1072px) {
+    h2{
+        font-size: 2rem; 
+    }
+    .proyecto-detalle{
+        width: 500px;
+    }
+    
 }
